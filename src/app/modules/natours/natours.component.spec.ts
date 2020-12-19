@@ -1,21 +1,21 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { AppComponent } from './app.component';
+import { NatoursComponent } from './natours.component';
 
-describe('AppComponent', () => {
+describe('NatoursComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
         RouterTestingModule
       ],
       declarations: [
-        AppComponent
+        NatoursComponent
       ],
     }).compileComponents();
   });
 
   it('should create the app', () => {
-    const fixture = TestBed.createComponent(AppComponent);
+    const fixture = TestBed.createComponent(NatoursComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });

@@ -1,11 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { GridComponent } from './grid.component';
 
 @NgModule({
-  imports: [
-    BrowserModule
-  ],
+  imports: [],
   declarations: [
     GridComponent
   ],
